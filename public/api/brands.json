@@ -1,0 +1,408 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "name": "Shovia",
+      "slug": "shovia",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/honda.png",
+        "original": "/assets/images/brands/honda.png"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Fusion",
+      "slug": "fusion",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/audi.png",
+        "original": "/assets/images/brands/audi.png"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Hunter Shoes",
+      "slug": "hunter-shoes",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/bmw.png",
+        "original": "/assets/images/brands/bmw.png"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Club Shoes",
+      "slug": "club-shoes",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/hyundai.png",
+        "original": "/assets/images/brands/hyundai.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Hoppister",
+      "slug": "hoppister",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/lexus.png",
+        "original": "/assets/images/brands/lexus.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Blaze Fashion",
+      "slug": "blaze-fashion",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/mazda.png",
+        "original": "/assets/images/brands/mazda.png"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Elegance",
+      "slug": "elegance",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/mercedes.png",
+        "original": "/assets/images/brands/mercedes.png"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Fashadil",
+      "slug": "fashadil",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/mg.png",
+        "original": "/assets/images/brands/mg.png"
+      }
+    }
+  ],
+  "brandsGrid": [
+    {
+      "id": 1,
+      "name": "mitsubishi",
+      "slug": "fusion",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/mitsubishi.png",
+        "original": "/assets/images/brands/mitsubishi.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/mitsubishi.png",
+        "original": "/assets/images/brands/grid/mitsubishi.png"
+      }
+    },
+    {
+      "id": 2,
+      "name": "MG",
+      "slug": "sholy",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/mg.png",
+        "original": "/assets/images/brands/grid/mg.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/mg.png",
+        "original": "/assets/images/brands/grid/mg.png"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Mercedes",
+      "slug": "tyrant",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/mercedes.png",
+        "original": "/assets/images/brands/grid/mercedes.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/mercedes.png",
+        "original": "/assets/images/brands/grid/mercedes.png"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Mazda",
+      "slug": "fashadil",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/mazda.png",
+        "original": "/assets/images/brands/grid/mazda.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/mazda.png",
+        "original": "/assets/images/brands/grid/mazda.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Lexus",
+      "slug": "clothingegy",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/lexus.png",
+        "original": "/assets/images/brands/grid/lexus.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/lexus.png",
+        "original": "/assets/images/brands/grid/lexus.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Hyundai",
+      "slug": "shosio",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/hyundai.png",
+        "original": "/assets/images/brands/grid/hyundai.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/hyundai.png",
+        "original": "/assets/images/brands/grid/hyundai.png"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Honda",
+      "slug": "club-shoes",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/honda.png",
+        "original": "/assets/images/brands/grid/honda.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/honda.png",
+        "original": "/assets/images/brands/grid/honda.png"
+      }
+    },
+    {
+      "id": 8,
+      "name": "BMW",
+      "slug": "BMW",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/bmw.png",
+        "original": "/assets/images/brands/grid/bmw.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/bmw.png",
+        "original": "/assets/images/brands/grid/bmw.png"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Audi",
+      "slug": "hoppister",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/audi.png",
+        "original": "/assets/images/brands/grid/audi.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/audi.png",
+        "original": "/assets/images/brands/grid/audi.png"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Nissan",
+      "slug": "shovia",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/nissan.png",
+        "original": "/assets/images/brands/grid/nissan.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/nissan.png",
+        "original": "/assets/images/brands/grid/nissan.png"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Proton",
+      "slug": "shoozly",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/proton.png",
+        "original": "/assets/images/brands/grid/proton.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/proton.png",
+        "original": "/assets/images/brands/grid/proton.png"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Toyota",
+      "slug": "blaze-fashion",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/toyota.png",
+        "original": "/assets/images/brands/grid/toyota.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/toyota.png",
+        "original": "/assets/images/brands/grid/toyota.png"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Elegance",
+      "slug": "elegance",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/elegance.png",
+        "original": "/assets/images/brands/grid/elegance.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/elegance-bg.jpg",
+        "original": "/assets/images/brands/grid/elegance-bg.jpg"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Clothingtastic",
+      "slug": "clothingtastic",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/clothingtastic.png",
+        "original": "/assets/images/brands/grid/clothingtastic.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/clothingtastic-bg.jpg",
+        "original": "/assets/images/brands/grid/clothingtastic-bg.jpg"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Fashnetic",
+      "slug": "fashnetic",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/fashnetic.png",
+        "original": "/assets/images/brands/grid/fashnetic.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/fashnetic-bg.jpg",
+        "original": "/assets/images/brands/grid/fashnetic-bg.jpg"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Hunter Shoes",
+      "slug": "hunter-shoes",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/hunter-shoes.png",
+        "original": "/assets/images/brands/grid/hunter-shoes.png"
+      },
+      "background_image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/grid/hunter-shoes-bg.jpg",
+        "original": "/assets/images/brands/grid/hunter-shoes-bg.jpg"
+      }
+    }
+  ],
+  "brandsTimer": [
+    {
+      "id": 1,
+      "name": "Nike",
+      "slug": "nike",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/timer/nike.png",
+        "original": "/assets/images/brands/timer/nike.png"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Dior",
+      "slug": "dior",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/timer/dior.png",
+        "original": "/assets/images/brands/timer/dior.png"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Gucci",
+      "slug": "gucci",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/timer/gucci.png",
+        "original": "/assets/images/brands/timer/gucci.png"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Gucci1",
+      "slug": "gucci1",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/timer/gucci1.png",
+        "original": "/assets/images/brands/timer/gucci1.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Levis",
+      "slug": "levis",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/timer/levis.png",
+        "original": "/assets/images/brands/timer/levis.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Puma",
+      "slug": "puma",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/timer/puma.png",
+        "original": "/assets/images/brands/timer/puma.png"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Zara",
+      "slug": "zara",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/timer/zara.png",
+        "original": "/assets/images/brands/timer/zara.png"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Under Armour",
+      "slug": "under-armour",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/brands/timer/under-armour.png",
+        "original": "/assets/images/brands/timer/under-armour.png"
+      }
+    }
+  ]
+}
