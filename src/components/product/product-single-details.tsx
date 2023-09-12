@@ -1,17 +1,17 @@
 
 import { useRouter } from 'next/router';
+import { ROUTES } from '@utils/routes';
 import { useProductQuery } from '@framework/product/get-product';
 import usePrice from '@framework/product/use-price';
-
-
+import Button from '@components/ui/button';
 import Carousel from '@components/ui/carousel/carousel';
 import { SwiperSlide } from 'swiper/react';
 import ProductMetaReview from '@components/product/product-meta-review';
-
+import { useTranslation } from 'next-i18next';
 
 const productGalleryCarouselResponsive = {
   '768': {
-    slidesPerView: 2,
+    slidesPerView: 1,
   },
   '0': {
     slidesPerView: 1,
@@ -24,7 +24,13 @@ const ProductSingleDetails: React.FC = () => {
   } = useRouter();
   const { data, isLoading } = useProductQuery(slug as string);
 
-
+  const { t } = useTranslation('common');
+  const router = useRouter();
+  function navigateToProductPage() {
+    router.push(`${ROUTES.PRODUCT}/${slug}`, undefined, {
+      locale: router.locale,
+    });
+  }
 
   const { price } = usePrice(
     data && {
@@ -71,7 +77,7 @@ const ProductSingleDetails: React.FC = () => {
       
 
       <div className="col-span-4 pt-8 lg:pt-0">
-        <div className="pb-7 mb-7">
+        <div className="mb-7">
           <h2 className="text-heading text-lg md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5">
             {data?.name}
           </h2>
@@ -79,11 +85,29 @@ const ProductSingleDetails: React.FC = () => {
             <div className="text-heading font-bold text-base md:text-xl lg:text-2xl 2xl:text-4xl ltr:pr-2 rtl:pl-2 ltr:md:pr-0 rtl:md:pl-0 ltr:lg:pr-2 rtl:lg:pl-2 ltr:2xl:pr-0 rtl:2xl:pl-0">
               {price}
             </div>
+
           </div>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 mt-5'>
+              <div className='mb-2'>    
+                <Button
+                    onClick={navigateToProductPage}
+                    variant="mtyellow"
+                    className="w-full h-11 md:h-12"
+                  >
+                    {t('Request MTReport')}
+                </Button>
+              </div>
+              <div className='mb-2'>    
+                <Button
+                    onClick={navigateToProductPage}
+                    variant="flat"
+                    className="w-full h-11 md:h-12"
+                  >
+                    {t('Share')}
+                </Button>
+              </div>
+            </div>
         </div>
-
-
-
         <ProductMetaReview data={data} />
       </div>
     </div>

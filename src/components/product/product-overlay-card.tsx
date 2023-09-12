@@ -4,7 +4,9 @@ import usePrice from '@framework/product/use-price';
 import { Product } from '@framework/types';
 import Text from '@components/ui/text';
 import cn from 'classnames';
-import { BagIcon } from '@components/icons/bag-icon';
+import { FuelIcon } from '@components/icons/fuel-icon';
+import { MileageIcon } from '@components/icons/mileage-icon';
+import { TransmissionIcon } from '@components/icons/transmission-icon';
 interface ProductProps {
   product: Product;
   index: number;
@@ -128,15 +130,15 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
             
             <div className="text-body flex flex-col md:flex-row gap-y-2 md:gap-x-2 text-xs xl:text-sm leading-normal xl:leading-relaxed truncate max-w-[250px]">
               <div className='flex flex-row gap-x-1'>
-                <BagIcon></BagIcon>
+                <FuelIcon></FuelIcon>
                 {product?.fuel}
               </div>
               <div className='flex flex-row gap-x-1'>
-                <BagIcon></BagIcon>
+                <MileageIcon></MileageIcon>
                 {product?.mileage}
               </div>
               <div className='flex flex-row gap-x-1'>
-                <BagIcon></BagIcon>
+                <TransmissionIcon></TransmissionIcon>
                 {product?.transmission}
               </div>
             </div>

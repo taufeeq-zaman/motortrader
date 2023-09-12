@@ -95,9 +95,9 @@ module.exports = {
       tab:'0px 0px 12px 0px rgba(240,240,240,1)',
     },
     fontFamily: {
-      body: ["'Open Sans', sans-serif"],
-      satisfy: ["'Satisfy', cursive"],
-      segoe: ["'Segoe UI', sans-serif"],
+      body: ["'Poppins', sans-serif"],
+      satisfy: ["'Poppins', sans-serif"],
+      segoe: ["'Poppins', sans-serif"],
     },
   },
   plugins: [

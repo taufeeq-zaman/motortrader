@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fontsource/open-sans": "4.5.14",
+    "@fontsource/poppins": "^5.0.8",
     "@fontsource/satisfy": "4.5.6",
     "@headlessui/react": "1.7.14",
     "@reach/portal": "0.18.0",

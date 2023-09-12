@@ -10,9 +10,7 @@ import dynamic from 'next/dynamic';
 import { useTranslation } from 'next-i18next';
 import LanguageSwitcher from '@components/ui/language-switcher';
 const AuthMenu = dynamic(() => import('./auth-menu'), { ssr: false });
-const CartButton = dynamic(() => import('@components/cart/cart-button'), {
-  ssr: false,
-});
+
 
 type DivElementRef = React.MutableRefObject<HTMLDivElement>;
 const { site_header } = siteSettings;
@@ -69,7 +67,6 @@ const Header: React.FC = () => {
                 {t('text-account')}
               </AuthMenu>
             </div>
-            <CartButton />
           </div>
         </div>
       </div>

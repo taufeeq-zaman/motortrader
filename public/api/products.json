@@ -1,8 +1,28 @@
 [
   {
     "id": 1,
-    "name": "Armani Veni Vidi Vici",
+    "name": "Toyota Crown",
     "description": "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    "fuel":"octane",
+    "mileage":"1000 km",
+    "transmission":"Atomatic",
+    "brand":"toyota",
+    "model":"crown",
+    "registration":"0",
+    "year":"2022",
+    "body":"crossover",
+    "engine":"2500 cc",
+    "color":"black",
+    "door":"4",
+    "seats":"7",
+    "papers":"none",
+    "condition":"New",
+    "location":"dhaka",
+    "price": 20.0,
+    "seller":"Taufeeq",
+    "mobile":"017000000",
+    "email":"test@test.com",
+    "message":"TOYOTA HIGHLANDER HYBRID AWD-i EXCEL PREMIUM ",
     "slug": "armani-veni-vidi-vici",
     "isNewArrival": true,
     "image": {
@@ -32,7 +52,6 @@
         "original": "/assets/images/products/p-11-4.png"
       }
     ],
-    "price": 20.0,
     "sale_price": 17.99,
     "variations": [
       {
@@ -1025,8 +1044,28 @@
   },
   {
     "id": 10,
-    "name": "Maniac Red Boys",
+    "name": "Toyota Crown",
     "description": "Sporty essentials, these Under Armour athletic shorts are smooth and lightweight in moisture-wicking material.",
+    "fuel":"octane",
+    "mileage":"1000 km",
+    "transmission":"Atomatic",
+    "brand":"toyota",
+    "model":"crown",
+    "registration":"0",
+    "year":"2022",
+    "body":"crossover",
+    "engine":"2500 cc",
+    "color":"black",
+    "door":"4",
+    "seats":"7",
+    "papers":"none",
+    "condition":"New",
+    "location":"dhaka",
+    "price": 20.0,
+    "seller":"Taufeeq",
+    "mobile":"017000000",
+    "email":"test@test.com",
+    "message":"TOYOTA HIGHLANDER HYBRID AWD-i EXCEL PREMIUM ",
     "slug": "hermes-carlton-london",
     "image": {
       "id": 1,
@@ -1045,7 +1084,6 @@
         "original": "/assets/images/products/p-20-2.png"
       }
     ],
-    "price": 20.0,
     "sale_price": 15.0,
     "quantity": 0,
     "variations": [

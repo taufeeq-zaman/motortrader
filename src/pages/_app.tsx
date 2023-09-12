@@ -13,10 +13,15 @@ import { appWithTranslation } from 'next-i18next';
 import { DefaultSeo } from '@components/common/default-seo';
 
 // Load Open Sans and satisfy typeface font
-import '@fontsource/open-sans';
-import '@fontsource/open-sans/600.css';
-import '@fontsource/open-sans/700.css';
-import '@fontsource/satisfy';
+import '@fontsource/poppins/100.css';
+import '@fontsource/poppins/200.css';
+import '@fontsource/poppins/300.css';
+import '@fontsource/poppins/400.css';
+import '@fontsource/poppins/500.css';
+import '@fontsource/poppins/600.css';
+import '@fontsource/poppins/700.css';
+import '@fontsource/poppins/800.css';
+import '@fontsource/poppins/900.css';
 // external
 import 'react-toastify/dist/ReactToastify.css';
 // base css file

@@ -5,6 +5,12 @@ import { useUI } from '@contexts/ui.context';
 import Button from '@components/ui/button';
 import usePrice from '@framework/product/use-price';
 import { useTranslation } from 'next-i18next';
+import { FuelIcon } from '@components/icons/fuel-icon';
+import { MileageIcon } from '@components/icons/mileage-icon';
+import { TransmissionIcon } from '@components/icons/transmission-icon';
+import { ModelIcon } from '@components/icons/model-icon';
+import { YearIcon } from '@components/icons/year-icon';
+import { EngineIcon } from '@components/icons/engine-icon';
 
 export default function ProductPopup() {
   const { t } = useTranslation('common');
@@ -73,30 +79,30 @@ export default function ProductPopup() {
               <div className='flex flex-row'>
                 <ul className="w-6/12 text-sm ">
                   <li className='py-1'>
-                    <span className='block w-6/12 font-bold float-left text-blacks'>Fuel:</span>
+                    <span className='block w-6/12 font-bold float-left text-blacks'><FuelIcon/></span>
                     <span className='w-6/12'>{fuel}</span>
                   </li>
                   <li className='py-1'>
-                    <span className='block w-6/12 font-bold float-left text-blacks'>Mileage:</span>
+                    <span className='block w-6/12 font-bold float-left text-blacks'><MileageIcon/></span>
                     <span className='w-6/12'>{mileage}</span>
                   </li>
                   <li className='py-1'>
-                    <span className='block w-6/12 font-bold float-left text-blacks'>Transmission:</span>
+                    <span className='block w-6/12 font-bold float-left text-blacks'><TransmissionIcon/></span>
                     <span className='w-6/12'>{transmission}</span>
                   </li>
                 </ul>
 
                 <ul className='w-6/12 text-sm '>
                   <li className='py-1'>
-                    <span className='block w-6/12 font-bold float-left text-blacks'>Model:</span>
+                    <span className='block w-6/12 font-bold float-left text-blacks'><ModelIcon/></span>
                     <span>RX</span>
                   </li>
                   <li className='py-1'>
-                    <span className='block w-6/12 font-bold float-left text-blacks'>Model year:</span>
+                    <span className='block w-6/12 font-bold float-left text-blacks'><YearIcon/></span>
                     <span className='w-6/12'>2019</span>
                   </li>
                   <li className='py-1'>
-                    <span className='block w-6/12 font-bold float-left text-blacks'>Engine:</span>
+                    <span className='block w-6/12 font-bold float-left text-blacks'><EngineIcon/></span>
                     <span className='w-6/12'>2000cc</span>
                   </li>
                 </ul>

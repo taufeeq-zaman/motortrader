@@ -31,7 +31,7 @@ const ShopsPageContent: React.FC = () => {
       <div className="w-full xl:max-w-[1170px] mx-auto">
         <div className="flex items-center justify-between mb-6 xl:mb-8">
           <h2 className="font-bold text-heading text-lg md:text-xl lg:text-2xl xl:text-3xl">
-            {t('text-super-shop')}
+            {t('Explore Dealerships')}
           </h2>
           <div className="flex-shrink-0 flex items-center ltr:ml-2 rtl:mr-2">
             <button
