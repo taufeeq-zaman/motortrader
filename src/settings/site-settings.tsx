@@ -27,8 +27,8 @@ export const siteSettings = {
   name: 'MotorTrader BD',
   description: 'Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS.',
   author: {
-    name: 'REDQ',
-    websiteUrl: 'https://redq.io',
+    name: 'MotorTrader BD',
+    websiteUrl: 'https://motortraderbd.com',
     address: '',
   },
   logo: {

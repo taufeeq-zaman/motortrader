@@ -27,20 +27,12 @@ export default function ProductPopup() {
   });
   const { slug, image, name, fuel, transmission, mileage } = data;
 
-
-
-
-
   function navigateToProductPage() {
     closeModal();
     router.push(`${ROUTES.PRODUCT}/${slug}`, undefined, {
       locale: router.locale,
     });
   }
-
-
-
-
 
   return (
     <div className="rounded-lg bg-white">

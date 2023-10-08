@@ -39,42 +39,34 @@ export const footer = {
     },
     {
       id: 2,
-      widgetTitle: 'widget-title-contact',
+      widgetTitle: 'Contact Details',
       lists: [
         {
           id: 1,
-          title: 'link-contact-us',
-          path: '/contact-us',
+          title: '',
+          path: '/',
+          icon: <IoLogoInstagram />,
         },
         {
           id: 2,
-          title: 'link-email',
+          title: '',
           path: '/',
-        },
-        {
-          id: 3,
-          title: 'link-email-two',
-          path: '/',
-        },
-        {
-          id: 4,
-          title: 'link-phone',
-          path: '/',
-        },
+          icon: <IoLogoInstagram />,
+        }
       ],
     },
     {
       id: 3,
-      widgetTitle: 'widget-title-about',
+      widgetTitle: 'Working Hours',
       lists: [
         {
           id: 1,
-          title: 'link-support-center',
-          path: '/contact-us',
+          title: '',   
+          path: '/',       
         },
         {
           id: 2,
-          title: 'link-customer-support',
+          title: '',
           path: '/',
         },
         {
@@ -84,7 +76,7 @@ export const footer = {
         },
         {
           id: 4,
-          title: 'link-copyright',
+          title: '',
           path: '/',
         },
       ],
@@ -94,116 +86,75 @@ export const footer = {
       widgetTitle: 'widget-title-customer-care',
       lists: [
         {
-          id: 1,
-          title: 'link-faq',
-          path: '/faq',
-        },
-        {
-          id: 2,
-          title: 'link-shipping',
-          path: '/',
-        },
-        {
           id: 3,
-          title: 'link-exchanges',
+          title: 'Return & Refund',
           path: '/',
         },
-      ],
-    },
-    {
-      id: 5,
-      widgetTitle: 'widget-title-our-information',
-      lists: [
         {
-          id: 1,
-          title: 'link-privacy',
+          id: 4,
+          title: 'Privacy Policy',
           path: '/privacy',
         },
         {
-          id: 2,
+          id: 5,
           title: 'link-terms',
           path: '/terms',
         },
         {
-          id: 3,
-          title: 'link-return-policy',
+          id: 6,
+          title: 'Cookie Policy',
           path: '/privacy',
         },
         {
-          id: 4,
-          title: 'link-site-map',
-          path: '/',
-        },
+          id: 7,
+          title: 'Contact Us',
+          path: '/contact-us',
+        }
       ],
     },
     {
-      id: 6,
-      widgetTitle: 'widget-title-top-categories',
+      id: 5,
+      widgetTitle: 'Quick Links',
       lists: [
         {
           id: 1,
-          title: 'link-men-wear',
-          path: '/search',
+          title: 'Home',
+          path: '/',
         },
         {
           id: 2,
-          title: 'link-men-wear',
-          path: '/search',
+          title: 'Sell A Car',
+          path: '/',
         },
         {
           id: 3,
-          title: 'link-kids-wear',
+          title: 'Buy A Car',
           path: '/search',
         },
         {
           id: 4,
-          title: 'link-sports-wear',
-          path: '/search',
+          title: 'Dealerships',
+          path: '/shops',
         },
+        {
+          id: 5,
+          title: 'About',
+          path: '/about',
+        }
+        
       ],
-    },
+    }
+
   ],
   payment: [
     {
       id: 1,
       path: '/',
-      image: '/assets/images/payment/mastercard.svg',
+      image: '/assets/images/payment/SSLCOMMERZ.png',
       name: 'payment-master-card',
-      width: 34,
-      height: 20,
-    },
-    {
-      id: 2,
-      path: '/',
-      image: '/assets/images/payment/visa.svg',
-      name: 'payment-visa',
-      width: 50,
-      height: 20,
-    },
-    {
-      id: 3,
-      path: '/',
-      image: '/assets/images/payment/paypal.svg',
-      name: 'payment-paypal',
-      width: 76,
-      height: 20,
-    },
-    {
-      id: 4,
-      path: '/',
-      image: '/assets/images/payment/jcb.svg',
-      name: 'payment-jcb',
-      width: 26,
-      height: 20,
-    },
-    {
-      id: 5,
-      path: '/',
-      image: '/assets/images/payment/skrill.svg',
-      name: 'payment-skrill',
-      width: 39,
-      height: 20,
-    },
+      width: 575,
+      height: 67,
+    }
   ],
 }
 
@@ -274,28 +225,20 @@ export const footerContemporary = {
     },
     {
       id: 2,
-      widgetTitle: 'widget-title-contact',
+      widgetTitle: 'Contact Details',
       lists: [
         {
           id: 1,
-          title: 'link-contact-us',
+          title: 'Hotline: +88 01841000106',
           path: '/contact-us',
+          icon: <IoLogoInstagram />,
         },
         {
           id: 2,
-          title: 'link-email',
+          title: 'info@motortrader.com',
           path: '/',
-        },
-        {
-          id: 3,
-          title: 'link-email-two',
-          path: '/',
-        },
-        {
-          id: 4,
-          title: 'link-phone',
-          path: '/',
-        },
+          icon: <IoLogoInstagram />,
+        }
       ],
     },
     {
