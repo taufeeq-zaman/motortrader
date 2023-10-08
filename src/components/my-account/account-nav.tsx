@@ -32,6 +32,11 @@ const accountMenu = [
     name: 'text-change-password',
     icon: <IoSettingsOutline className="w-5 h-5" />,
   },
+  {
+    slug: ROUTES.POSTS,
+    name: 'Posts',
+    icon: <IoSettingsOutline className="w-5 h-5" />,
+  },
 ];
 
 export default function AccountNav() {

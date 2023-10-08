@@ -7,9 +7,9 @@ export type CollectionsQueryOptionsType = {
   limit?: number;
 };
 
-export type CategoriesQueryOptionsType = {
+export type LOCATIONQueryOptionsType = {
   text?: string;
-  category?: string;
+  location?: string;
   status?: string;
   limit?: number;
   demoVariant?: 'ancient';
@@ -23,7 +23,7 @@ export type ProductsQueryOptionsType = {
 };
 export type QueryOptionsType = {
   text?: string;
-  category?: string;
+  location?: string;
   status?: string;
   limit?: number;
   demoVariant?: 'ancient';
@@ -88,7 +88,7 @@ export type Product = {
   image: Attachment;
   sku?: string;
   gallery?: Attachment[];
-  category?: Category;
+  location?: Location;
   tag?: Tag[];
   meta?: any[];
   description?: string;

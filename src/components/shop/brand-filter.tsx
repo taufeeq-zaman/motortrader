@@ -47,18 +47,36 @@ export const BrandFilter = () => {
 			<h3 className="text-heading text-sm md:text-base font-semibold mb-7">
 				{t("text-brands")}
 			</h3>
-			<div className="mt-2 flex flex-col space-y-4">
+			<ul className="mt-2 flex flex-col space-y-4">
 				{items?.map((item: any) => (
-					<CheckBox
-						key={item.id}
-						label={item.name}
-						name={item.name.toLowerCase()}
-						checked={formState.includes(item.slug)}
-						value={item.slug}
-						onChange={handleItemClick}
-					/>
+					<li>
+						<CheckBox
+							key={item.id}
+							label={item.name}
+							name={item.name.toLowerCase()}
+							checked={formState.includes(item.slug)}
+							value={item.slug}
+							onChange={handleItemClick}
+						/>
+						{/* {items.?map((item:any) => (
+						<ul>
+							<li className="pl-3 pt-3">
+								<CheckBox
+								key={item.id}
+								label={item.model.name}
+								name={item.name.toLowerCase()}
+								checked={formState.includes(item.slug)}
+								value={item.slug}
+								onChange={handleItemClick}
+							/>
+							</li>
+					</ul>
+						))} */}
+
+					</li>
+
 				))}
-			</div>
+			</ul>
 		</div>
 	);
 };

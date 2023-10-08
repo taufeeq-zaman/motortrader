@@ -1,7 +1,8 @@
 import PageHeader from "@components/ui/page-header";
 import Container from "@components/ui/container";
 import AccountNav from "@components/my-account/account-nav";
-import Subscription from "@components/common/subscription";
+
+
 
 const AccountLayout: React.FunctionComponent<{}> = ({ children }) => {
 	return (
@@ -14,8 +15,6 @@ const AccountLayout: React.FunctionComponent<{}> = ({ children }) => {
 						<div className="md:w-4/6 2xl:w-8/12 mt-4 md:mt-0">{children}</div>
 					</div>
 				</div>
-
-				<Subscription />
 			</Container>
 		</>
 	);

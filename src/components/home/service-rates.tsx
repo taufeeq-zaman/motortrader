@@ -9,8 +9,8 @@ export default function ServiceRates ({
             <div className="flex items-center justify-center -mt-2 pb-0.5 mb-4 md:mb-5 lg:mb-6 2xl:mb-7 3xl:mb-8">
                 <h2 className="text-lg md:text-xl lg:text-2xl 2xl:text-3xl xl:leading-10 font-bold text-heading">Service rates</h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-x-4 justify-items-center">
-                <div className="flex flex-col gap-y-2 bg-white py-[35px] px-[28px]">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-y-4 md:gap-x-4 justify-items-center">
+                <div className="flex w-full md:w-auto flex-col gap-y-2 bg-white py-[35px] px-[28px]">
                     <div>
                         <span className="icon fa fa-tags"></span>
                     </div>
@@ -37,7 +37,7 @@ export default function ServiceRates ({
                         </table>
                     </div>
                 </div>
-                <div className="flex flex-col gap-y-2 bg-white py-[35px] px-[28px]">
+                <div className="flex w-full md:w-auto flex-col gap-y-2 bg-white py-[35px] px-[28px]">
                     <div>
                         <span className="icon fa fa-thumb-tack"></span>
                     </div>
@@ -64,7 +64,7 @@ export default function ServiceRates ({
                         </table>
                     </div>
                 </div>
-                <div className="flex max-w-[363px] flex-col gap-y-2 bg-white py-[35px] px-[28px]">
+                <div className="flex w-full md:w-auto md:max-w-[363px] flex-col gap-y-2 bg-white py-[35px] px-[28px]">
                     <div>
                         <span className="icon fa fa-tags"></span>
                     </div>
