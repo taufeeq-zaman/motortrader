@@ -51,6 +51,9 @@ export default function BannerCard({
           })}
           priority={true}
         />
+        <div className='absolute bg-black max-w-[600px] bg-opacity-60 py-10 px-10 top-1/4 left-[58%]'>
+          <h1 className='text-4lg font-bold text-white leading-11 relative'>{title}</h1> 
+        </div>
         {effectActive && (
           <div className="absolute top-0 ltr:-left-[100%] rtl:-right-[100%] h-full w-1/2 z-5 block transform ltr:-skew-x-12 rtl:skew-x-12 bg-gradient-to-r from-transparent to-white opacity-40 ltr:group-hover:animate-shine rtl:group-hover:animate-shineRTL" />
         )}

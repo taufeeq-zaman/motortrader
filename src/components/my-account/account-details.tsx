@@ -101,6 +101,19 @@ const AccountDetails: React.FC = () => {
           </div>
           <div className="relative flex flex-col">
             <span className="mt-2 text-sm text-heading font-semibold block pb-1">
+              {t('NID Upload')}
+            </span>
+            <div className='flex flex-col gap-y-2'>
+              <input type="file" name="image" id="image" />
+              <div className="flex flex-col sm:flex-row sm:gap-x-3 space-y-4 sm:space-y-0">
+                <img width="200" height="100" className="w-full max-h-[200px] bg-center border border-blacks" src="../assets/images/picture-preview-icon-01.png" alt="" />
+                <img width="200" height="100" className="w-full max-h-[200px] bg-center border border-blacks" src="../assets/images/picture-preview-icon-01.png" alt="" />
+              </div>
+              
+            </div>
+          </div>
+          <div className="relative flex flex-col">
+            <span className="mt-2 text-sm text-heading font-semibold block pb-1">
               {t('common:text-gender')}
             </span>
             <div className="mt-2 flex items-center gap-x-6">

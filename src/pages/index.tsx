@@ -23,8 +23,8 @@ import ServiceRates from "@components/home/service-rates";
 export default function Home() {
 	return (
 		<>
+		<HeroSlider data={banners} buttonGroupClassName="hidden" />
 			<Container>
-				<HeroSlider data={banners} buttonGroupClassName="hidden" />
 				{/* <SaleBannerGrid /> */}
 				<UsedNewCar></UsedNewCar>
 				<ProductsFeatured

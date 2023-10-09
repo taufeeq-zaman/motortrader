@@ -1000,7 +1000,7 @@ export const homeFiveBanner = {
 export const homeSixHeroSlider = [
   {
     id: 1,
-    title: 'We picked every item with care you must try',
+    title: 'No Comission Fees, Free Ads',
     slug: 'winter-collection',
     image: {
       mobile: {
@@ -1017,7 +1017,7 @@ export const homeSixHeroSlider = [
   },
   {
     id: 2,
-    title: 'We picked every item with care you must try',
+    title: 'The Best Place for Online Automotive Buy and Sell',
     slug: 'winter-collection',
     image: {
       mobile: {
@@ -1034,7 +1034,7 @@ export const homeSixHeroSlider = [
   },
   {
     id: 3,
-    title: 'We picked every item with care you must try',
+    title: 'Largest Online Automotive Inventory in Bangladesh',
     slug: 'winter-collection',
     image: {
       mobile: {

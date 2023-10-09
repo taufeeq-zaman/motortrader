@@ -28,7 +28,7 @@ module.exports = {
         borderBottom: '#f7f7f7',
         facebook: '#4267B2',
         facebookHover: '#395fad',
-        google: '#4285F4',
+        google: '#D13A2E',
         googleHover: '#307bf9',
         gray: {
           50: '#FBFBFB',
@@ -47,6 +47,10 @@ module.exports = {
       },
       fontSize: {
         '10px': '.625rem',
+        '4lg': ' 40px'
+      },
+      lineHeight: {
+        'leading-11': '3.5rem'
       },
       spacing: {
         '430px': '430px',

@@ -1,4 +1,3 @@
-import PasswordInput from "@components/ui/password-input";
 import Button from "@components/ui/button";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
@@ -33,7 +32,7 @@ const NewPosts: React.FC = () => {
 							<div className="grid grid-cols-1 md:grid-cols-4 gap-4 bg-gray-100 py-2.5 px-5">
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Brand</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 										<option value="">Option</option>
 										<option value="">Option</option>
@@ -43,89 +42,89 @@ const NewPosts: React.FC = () => {
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Model</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 									</select>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Model Year</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 									</select>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Registration Year</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 									</select>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Condition</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 									</select>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Type</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 									</select>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Transmission</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 									</select>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Fuel Type</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 									</select>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Mileage</label>
-									<input type="text" className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
+									<input type="text" className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Color</label>
-									<input type="text" className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
+									<input type="text" className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Engine Capacity</label>
-									<input type="text" className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
+									<input type="text" className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Doors</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 									</select>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Seats</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 									</select>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Papers & Documents</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 									</select>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Location</label>
-									<select className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
+									<select className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" name="brand" id="brand">
 										<option value="">Option</option>
 									</select>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">Price</label>
-									<input type="text" className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
+									<input type="text" className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<label htmlFor="brand">What Car do you drive</label>
-									<input type="text" className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
+									<input type="text" className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
 								</div>
 							</div>
                         </div>
@@ -286,19 +285,19 @@ const NewPosts: React.FC = () => {
 								<div className="flex flex-col gap-y-1">
 									<div className="flex flex-col gap-y-1">
 										<label htmlFor="brand">Name</label>
-										<input type="text" className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
+										<input type="text" className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
 									</div>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<div className="flex flex-col gap-y-1">
 										<label htmlFor="brand">Email</label>
-										<input type="text" className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
+										<input type="text" className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
 									</div>
 								</div>
 								<div className="flex flex-col gap-y-1">
 									<div className="flex flex-col gap-y-1">
 										<label htmlFor="brand">Phone</label>
-										<input type="text" className="h-[48px] py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
+										<input type="text" className="min-h-12 transition duration-200 ease-in-out focus:outline-none h-11 md:h-12 rounded-md py-2.5 px-9 bg-white border text-blacks border-blacks focus:border-mtyellow" />
 									</div>
 								</div>
 							</div>
