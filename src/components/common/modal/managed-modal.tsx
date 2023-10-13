@@ -2,6 +2,7 @@ import { useUI } from "@contexts/ui.context";
 import Modal from "./modal";
 import dynamic from "next/dynamic";
 import Newsletter from "../newsletter";
+import ServicePopup from "@components/my-account/service-popup";
 const LoginForm = dynamic(() => import("@components/auth/login-form"));
 const SignUpForm = dynamic(() => import("@components/auth/sign-up-form"));
 const ForgetPasswordForm = dynamic(
@@ -17,6 +18,7 @@ const ManagedModal: React.FC = () => {
 			{modalView === "FORGET_PASSWORD" && <ForgetPasswordForm />}
 			{modalView === "PRODUCT_VIEW" && <ProductPopup />}
 			{modalView === "NEWSLETTER_VIEW" && <Newsletter />}
+			{modalView === "SERVICE_VIEW" && <ServicePopup />}
 		</Modal>
 	);
 };

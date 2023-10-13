@@ -61,7 +61,7 @@ export const footer = {
       lists: [
         {
           id: 1,
-          title: '',   
+          title: '',
           path: '/',       
         },
         {
@@ -88,7 +88,7 @@ export const footer = {
         {
           id: 3,
           title: 'Return & Refund',
-          path: '/',
+          path: '/refund',
         },
         {
           id: 4,
@@ -103,12 +103,12 @@ export const footer = {
         {
           id: 6,
           title: 'Cookie Policy',
-          path: '/privacy',
+          path: '/cookie',
         },
         {
           id: 7,
-          title: 'Contact Us',
-          path: '/contact-us',
+          title: 'Community & Posting',
+          path: '/community-and-posting-rules',
         }
       ],
     },

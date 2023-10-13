@@ -99,6 +99,13 @@ export type Product = {
   [key: string]: unknown;
   isNewArrival?: boolean;
 };
+export type Blog = {
+  id: number | string;
+  name: string;
+  image: Attachment;
+  excerpt?: string;
+  description?: string;
+};
 export type OrderItem = {
   id: number | string;
   name: string;

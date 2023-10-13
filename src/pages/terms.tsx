@@ -10,7 +10,6 @@ import { GetStaticProps } from 'next';
 function makeTitleToDOMId(title: string) {
   return title.toLowerCase().split(' ').join('_');
 }
-
 export default function TermsPage() {
   const { t } = useTranslation('terms');
   return (

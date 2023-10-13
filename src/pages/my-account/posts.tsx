@@ -9,9 +9,16 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useWindowSize } from '@utils/use-window-size';
 import { useTranslation } from 'next-i18next';
 import { useSsrCompatible } from '@utils/use-ssr-compatible';
+import {useUI} from "@contexts/ui.context";
 export default function Posts() {
 	const { width } = useSsrCompatible(useWindowSize(), { width: 0, height: 0 });
 	const { t } = useTranslation('common');
+	const { openModal, setModalView, setModalData } = useUI();
+	function handlePopupView() {
+		setModalData({ data: "product" });
+		setModalView('SERVICE_VIEW');
+		return openModal();
+	}
 	return (
 		<AccountLayout>
 			    <>
@@ -27,7 +34,10 @@ export default function Posts() {
 								{t("New Post")}
 							</Button>
 					</div>
-
+					<div className="mb-6 flex flex-row">
+						<p>You have not submitted any posts get. Remaining 1 free post(s).</p>
+						<span className="cursor-pointer" onClick={handlePopupView}>+</span>
+					</div>
 					<motion.div
 						layout
 						initial="from"
@@ -38,6 +48,7 @@ export default function Posts() {
 						className={`w-full flex flex-col`}
 					>
 						{width >= 1025 ? (
+
 						<table>
 							<thead className="text-sm lg:text-base">
 							<tr>

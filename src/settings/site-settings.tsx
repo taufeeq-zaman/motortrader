@@ -49,7 +49,7 @@ export const siteSettings = {
       },
       {
         id: 2,
-        path: '/search?q=men-wear',
+        path: '/signin',
         label: 'Sell A Car',
       },
       {

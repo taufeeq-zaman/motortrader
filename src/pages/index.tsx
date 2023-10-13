@@ -20,6 +20,7 @@ import { homeSixHeroSlider as banners } from "@framework/static/banner";
 import UsedNewCar from "@components/home/used-new-car";
 import TaxCalculator from "@components/home/tax-calculator";
 import ServiceRates from "@components/home/service-rates";
+import BlogCard from "@components/blogs/blog-card";
 export default function Home() {
 	return (
 		<>
@@ -45,6 +46,7 @@ export default function Home() {
 					variant="6column"
 				/>
 				<ServiceRates></ServiceRates>
+				{/*<BlogCard blog={'asd'}></BlogCard>*/}
 			</Container>
 		</>
 	);
