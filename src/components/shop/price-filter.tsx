@@ -2,6 +2,7 @@ import { CheckBox } from "@components/ui/checkbox";
 import { useRouter } from "next/router";
 import React from "react";
 import { useTranslation } from "next-i18next";
+import {styled} from "react-query/types/devtools/utils";
 const priceFilterItems = [
 	{
 		id: "1",
@@ -82,17 +83,42 @@ export const PriceFilter = () => {
 				{t("text-price")}
 			</h3>
 			<div className="mt-2 flex flex-col space-y-4">
-				{items?.map((item: any) => (
-					<CheckBox
-						key={item.id}
-						label={item.name}
-						name={item.name.toLowerCase()}
-						checked={formState.includes(item.slug)}
-						value={item.slug}
-						onChange={handleItemClick}
-					/>
-				))}
+				{/*{items?.map((item: any) => (*/}
+				{/*	<CheckBox*/}
+				{/*		key={item.id}*/}
+				{/*		label={item.name}*/}
+				{/*		name={item.name.toLowerCase()}*/}
+				{/*		checked={formState.includes(item.slug)}*/}
+				{/*		value={item.slug}*/}
+				{/*		onChange={handleItemClick}*/}
+				{/*	/>*/}
+				{/*))}*/}
+				<style jsx>{`
+					input::-webkit-outer-spin-button,
+					input::-webkit-inner-spin-button {
+					-webkit-appearance: none;
+					margin: 0;
+				}
+
+					/* Firefox */
+					input[type=number] {
+                      -moz-appearance: textfield;
+                    }
+					`
+				}
+				</style>
+				<h4 className="text-heading text-sm md:text-base  mb-7">Minimun</h4>
+				<div className="border border-gray-900 h-[35px] flex flex-row mb-[20px]">
+					<span className="text-blacks text-xs py-2 px-2 border-transparent border border-r-gray-900">BDT</span>
+					<input  type="number" placeholder="0" className="pl-[5px] text-xs text-blacks focus:outline-none placeholder-gray-900"/>
+				</div>
+				<h4 className="text-heading text-sm md:text-base mb-7">Maximum</h4>
+				<div className="border border-gray-900 h-[35px] flex flex-row mb-[20px]">
+					<span className="text-blacks text-xs py-2 px-2 border-transparent border border-r-gray-900">BDT</span>
+					<input  type="number" placeholder="0" className="pl-[5px] text-xs text-blacks focus:outline-none placeholder-gray-900"/>
+				</div>
 			</div>
 		</div>
 	);
 };
+

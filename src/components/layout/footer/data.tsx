@@ -43,13 +43,13 @@ export const footer = {
       lists: [
         {
           id: 1,
-          title: '',
+          title: 'link-phone',
           path: '/',
           icon: <IoLogoInstagram />,
         },
         {
           id: 2,
-          title: '',
+          title: 'link-email',
           path: '/',
           icon: <IoLogoInstagram />,
         }
@@ -61,24 +61,19 @@ export const footer = {
       lists: [
         {
           id: 1,
-          title: '',
+          title: 'working-time',
           path: '/',       
         },
         {
           id: 2,
-          title: '',
+          title: 'off-day',
           path: '/',
         },
         {
           id: 3,
-          title: 'link-about-us',
-          path: '/contact-us',
-        },
-        {
-          id: 4,
-          title: '',
+          title: 'trade-license',
           path: '/',
-        },
+        }
       ],
     },
     {

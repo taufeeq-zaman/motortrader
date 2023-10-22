@@ -1,11 +1,12 @@
 import { CategoryFilter } from "./category-filter";
 import { BrandFilter } from "./brand-filter";
 import { FilteredItem } from "./filtered-item";
-import { ColorFilter } from "./color-filter";
 import { PriceFilter } from "./price-filter";
 import { useRouter } from "next/router";
 import isEmpty from "lodash/isEmpty";
 import { useTranslation } from "next-i18next";
+import {ConditionFilter} from "@components/shop/condition-filter";
+import {VerificationFilter} from "@components/shop/verification";
 
 export const ShopFilters: React.FC = () => {
 	const router = useRouter();
@@ -48,7 +49,8 @@ export const ShopFilters: React.FC = () => {
 			<CategoryFilter />
 			<BrandFilter />
 			<PriceFilter />
-			<ColorFilter />
+			<ConditionFilter/>
+			<VerificationFilter/>
 		</div>
 	);
 };

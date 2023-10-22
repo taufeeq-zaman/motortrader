@@ -1,5 +1,4 @@
 import Button from "@components/ui/button";
-import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 import { fadeInTop } from "@utils/motion/fade-in-top";
 import { useTranslation } from "next-i18next";

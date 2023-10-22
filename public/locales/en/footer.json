@@ -34,5 +34,8 @@
   "payment-visa": "Visa",
   "payment-paypal": "Paypal",
   "payment-jcb": "JCB",
-  "payment-skrill": "Skrill"
+  "payment-skrill": "Skrill",
+  "working-time": "Saturday to Thursday : 11:00am to 7:00pm",
+  "off-day": "Friday & Govt. Holidays : Closed",
+  "trade-license": "Trade License Number: 188127"
 }

@@ -58,21 +58,19 @@ export const BrandFilter = () => {
 							value={item.slug}
 							onChange={handleItemClick}
 						/>
-						{/* {items.?map((item:any) => (
+
 						<ul>
 							<li className="pl-3 pt-3">
 								<CheckBox
 								key={item.id}
-								label={item.model.name}
+								label={item.name}
 								name={item.name.toLowerCase()}
 								checked={formState.includes(item.slug)}
 								value={item.slug}
 								onChange={handleItemClick}
 							/>
 							</li>
-					</ul>
-						))} */}
-
+						</ul>
 					</li>
 
 				))}

@@ -30,14 +30,14 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
     (variant === 'center' && index === 1) ||
     (variant === 'combined' && index === 0)
   ) {
-    classes = 'col-span-2 lg:col-span-1';
+    classes = 'col-span-4 sm:col-span-2 lg:col-span-1';
     size = 620;
   } else if (variant === 'combined') {
     if (index === 2) {
-      classes = 'col-span-2 lg:col-span-1';
+      classes = 'col-span-4 sm:col-span-2 lg:col-span-1';
       size = 620;
     } else {
-      classes = 'col-span-2 lg:col-span-1';
+      classes = 'col-span-4 sm:col-span-2 lg:col-span-1';
       size = 620;
     }
   } else if (variant === 'modern') {
@@ -87,8 +87,8 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
           alt={product?.name || 'Product Image'}
           className="transition duration-500 ease-in-out transform group-hover:scale-110"
         />
-      </div>
 
+      </div>
       {variant === 'modern' && (
         <span
           className={cn(
@@ -121,10 +121,14 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
         className="flex flex-col w-full gap-y-2 px-4 pb-4 md:flex-col lg:flex-col 2xl:flex-col md:justify-between md:items-start lg:items-start 2xl:items-start md:px-5 3xl:px-7 md:pb-5 3xl:pb-7"
         title={product?.name}
       >
-        <div className="overflow-hidden ltr:md:pr-2 rtl:md:pl-2 ltr:lg:pr-0 rtl:lg:pl-0 ltr:2xl:pr-2 rtl:2xl:pl-2">
-          <h2 className="mb-2 text-sm font-semibold truncate text-heading md:text-base xl:text-lg">
-            {product?.name}
-          </h2>
+        <div className="overflow-hidden w-full ltr:md:pr-2 rtl:md:pl-2 ltr:lg:pr-0 rtl:lg:pl-0 ltr:2xl:pr-2 rtl:2xl:pl-2">
+          <div className="flex flex-col md:flex-row justify-between">
+            <h2 className="mb-2 text-sm font-semibold truncate text-heading md:text-base xl:text-lg">
+              {product?.name}
+            </h2>
+            <img src="/assets/images/boost/boost_bump72.png" className="w-[72px] h-[18px] mb-2 md:mb-0" alt=""/>
+          </div>
+
 
           {variant !== 'modern' ? (
             
